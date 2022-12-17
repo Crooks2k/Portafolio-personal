@@ -1,0 +1,104 @@
+.Inicio-Image img{
+    width: 80%;
+}
+.hola-tittle{
+    margin-bottom: -0.2rem;
+}
+.frontend-tittle{
+    margin-top: -0.4rem;
+}
+#inicio-first-col div{
+    margin-top: 5rem;
+    margin-left: 4rem;
+    justify-content: center;
+}
+#inicio-second-col{
+    margin-top: 0rem;
+}
+.Inicio-Tittles p{
+    color: white;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.Inicio-Tittles h2{
+    color: #7F5AF0;
+    letter-spacing: 1px;
+}
+.Contact-butt{
+    margin-top: -1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid #7F5AF0;
+    color: white;
+    letter-spacing: 1px;
+}
+.aritos{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+}
+#arito1{
+    transform: translate(-75%, 115%);
+}
+#arito2{
+    transform: translate(70%, -140%) rotate(100deg);
+}
+
+@media (max-width: 820px){
+    #inicio-first-col div{
+        margin-top: 2rem;
+        margin-left: 3rem;
+    }
+    #arito1{
+        transform: translate(-50%, 180%);
+        height: 80px;
+        width: 80px;
+    }
+    #arito2{
+        transform: translate(80%, -190%) rotate(30deg);
+        width: 80px;
+        height: 80px;
+    }
+}
+@media (max-width: 600px){
+    #inicio-second-col{
+        display: none;
+    }
+    #inicio-first-col div{
+        margin-top: 1.5rem;
+        margin-left: 4rem;
+    }
+    #arito1{
+        transform: translate(-75%, 170%);
+        height: 80px;
+        width: 80px;
+    }
+    #arito2{
+        transform: translate(80%, -160%) rotate(30deg);
+        width: 80px;
+        height: 80px;
+    }
+}
+@media (max-width:400px){
+    #inicio-second-col{
+        display: none;
+    }
+    #inicio-first-col div{
+        margin-top: 1.5rem;
+        margin-left: 1.5rem;
+    }
+    #arito1{
+        transform: translate(-50%, 180%);
+        height: 80px;
+        width: 80px;
+    }
+    #arito2{
+        transform: translate(40%, -170%) rotate(30deg);
+        width: 80px;
+        height: 80px;
+    }
+}
