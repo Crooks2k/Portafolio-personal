@@ -7,7 +7,7 @@ function OffcanvasExample() {
   return (
     <div>
       {["md"].map((expand) => (
-        <Navbar key={expand} expand={expand} className="mb-3" id="NavBar-nav" sticky="top">
+        <Navbar key={expand} expand={expand} className="mb-3" id="NavBar-nav" fixed="top"> 
           <Container fluid>
             <Navbar.Brand href="#"></Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} id="butt-nav"/>
@@ -21,14 +21,14 @@ function OffcanvasExample() {
               </Offcanvas.Header>
               <Offcanvas.Body id="offcanvas-body">
                 <Nav className="justify-content-end flex-grow-1 pe-3 " id="NavBar-colors">
-                  <Nav.Link href="#Inicio">Inicio</Nav.Link>
-                  <Nav.Link href="#action2">Sobre mi</Nav.Link>
-                  <Nav.Link href="#action3">Habilidades</Nav.Link>
-                  <Nav.Link href="#action4">Proyectos</Nav.Link>
-                  <Nav.Link href="#action5">Contacto</Nav.Link>
+                  <Nav.Link href="#Inicio" className="Linea-editable">Inicio</Nav.Link>
+                  <Nav.Link href="#action2" className="Linea-editable">Sobre mi</Nav.Link>
+                  <Nav.Link href="#action3" className="Linea-editable">Habilidades</Nav.Link>
+                  <Nav.Link href="#action4" className="Linea-editable">Proyectos</Nav.Link>
+                  <Nav.Link href="#action5" id="header-contact">Contacto</Nav.Link>
                 </Nav>
               </Offcanvas.Body>
-            </Navbar.Offcanvas>
+            </Navbar.Offcanvas> 
           </Container>
         </Navbar>
         

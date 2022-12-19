@@ -1,0 +1,115 @@
+#carousel-start{
+    margin-top: 3rem;
+    background-color: #242629;
+    max-width: 60%;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 2rem;
+}
+#carousel-start img{
+    margin: auto;
+    margin-bottom: 8rem;
+    margin-top: -2rem;
+}
+   /* images styles */
+#html-img{
+    width: 200px;
+    height: 200px;
+}
+#css-img{
+    width: 200px;
+    height: 200px;
+}
+#js-img{
+    width: 260px;
+    height: 200px;
+}
+#bootsrap-img{
+    width: 250px;
+    height: 200px;
+}
+#react-img{
+    width: 250px;
+    height: 200px;
+}
+#scrum-img{
+    width: 200px;
+    height: 200px;
+}
+@media (max-width: 1070px){
+    #carousel-start{
+        max-width: 70%;
+    }
+
+       /* images styles */
+    #html-img{
+        width: 180px;
+        height: 180px;
+    }
+    #css-img{
+        width: 180px;
+        height: 180px;
+    }
+    #js-img{
+        width: 240px;
+        height: 180px;
+    }
+    #bootsrap-img{
+        width: 230px;
+        height: 180px;
+    }
+    #react-img{
+        width: 230px;
+        height: 180px;
+    }
+    #scrum-img{
+        width: 180px;
+        height: 180px;
+    }
+}
+@media (max-width: 820px){
+    #carousel-start{
+        max-width: 80%;
+    }
+    #carousel-start img{
+        margin-top: 0.5rem;
+    }
+}
+@media (max-width: 600px){
+    #carousel-start{
+        max-width: 80%;
+    }
+       /* images styles */
+    #html-img{
+        width: 140px;
+        height: 140px;
+    }
+    #css-img{
+        width: 140px;
+        height: 140px;
+    }
+    #js-img{
+        width: 190px;
+        height: 140px;
+    }
+    #bootsrap-img{
+        width: 180px;
+        height: 130px;
+    }
+    #react-img{
+        width: 180px;
+        height: 130px;
+    }
+    #scrum-img{
+        width: 130px;
+        height: 130px;
+    }
+}
+@media (max-width:400px){
+    #carousel-start{
+        max-width: 90%;
+    }
+    #carousel-start img{
+        margin-top: 0.5rem;
+    }
+}
