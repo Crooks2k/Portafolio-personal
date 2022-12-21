@@ -1,5 +1,6 @@
 .Inicio-Image img{
     width: 80%;
+    opacity: 0.9;
 }
 @keyframes Animate1{
     0%{
@@ -44,6 +45,9 @@
     border: 4px solid #7F5AF0;
     color: white;
     letter-spacing: 1px;
+}
+.Contact-butt:hover{
+    transform: scale(1.1);
 }
 .aritos{
     position: absolute;

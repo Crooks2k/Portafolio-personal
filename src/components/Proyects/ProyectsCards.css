@@ -1,0 +1,28 @@
+#cards{
+    background-color:#242629;
+    border: none;
+}
+
+#Website-butt,#GitHub-butt{
+    width: 8rem;
+    border-radius: 30px;
+    border: none;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    color: white;
+    background-color: #7F5AF0;
+}
+#Website-butt:hover,#GitHub-butt:hover{
+    transform: scale(1.1);
+}
+
+#GitHub-butt{
+    margin-left: 1rem;
+}
+.Links img{
+    width: 23px;
+    height: 23px;
+    margin: auto;
+    padding-bottom: 0.1rem;
+    padding-top: -0.1rem;
+}

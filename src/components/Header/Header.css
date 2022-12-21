@@ -1,8 +1,8 @@
 #NavBar-nav{
     background-color: rgb(36, 38, 41);
     margin-bottom: 0rem!important;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
 }
 #NavBar-colors a{
     color: #FFFFFE;
@@ -14,7 +14,7 @@
 }
 #Header-image{
     width: 100%;
-    margin-top:4rem;
+    margin-top:3.5rem;
 }
 #offcanvas-body{
     background-color: rgb(36, 38, 41);
@@ -28,11 +28,14 @@
     border: 0px;
 }
 #header-contact{
-    border: 4px solid #7F5AF0;
+    border: 2px solid #7F5AF0;
     border-radius: 10px;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
-.Linea-editable{
-    border-bottom: 4px solid #7F5AF0;
+#header-contact:hover{
+    transform: scale(1.1);
 }
+/* .Linea-editable{
+    border-bottom: 4px solid #7F5AF0;
+} */
