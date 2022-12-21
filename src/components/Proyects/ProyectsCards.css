@@ -26,3 +26,8 @@
     padding-bottom: 0.1rem;
     padding-top: -0.1rem;
 }
+.Card-tittle{
+    color: #fff;
+    text-align: center;
+    background-image: url();
+}

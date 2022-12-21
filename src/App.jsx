@@ -10,7 +10,6 @@ import OffcanvasExample from "./components/Header/Header"
 import About from "./components/About/About"
 import Skills from "./components/Skills/Skills"
 import Proyects from './components/Proyects/Proyects'
-import ProyectsCards from './components/Proyects/ProyectsCards'
 function App() {
   
   return (
