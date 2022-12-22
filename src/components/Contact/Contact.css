@@ -1,0 +1,36 @@
+.Contact img{
+    width: 130px;
+    height: 130px;
+}
+.contact-images:hover{
+    transform: scale(1.1);
+}
+.Contact{
+    display: grid;
+    place-items: center;
+    padding-bottom: 3rem;
+}
+.Contact-display{
+    display: flex;
+    gap: 4rem;
+}
+@media (max-width: 820px){
+    .Contact img{
+        width: 100px;
+        height: 100px;
+    }
+    .Contact-display{
+        gap: 2rem;
+    }
+}
+@media (max-width: 600px){
+    .Contact img{
+        width: 80px;
+        height: 80px;
+    }
+    .Contact-display{
+        gap: 1rem;
+    }
+}
+@media (max-width:400px){
+}

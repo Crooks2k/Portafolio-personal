@@ -19,6 +19,9 @@
 #GitHub-butt{
     margin-left: 1rem;
 }
+.Links{
+    display: flex;
+}
 .Links img{
     width: 23px;
     height: 23px;
@@ -29,5 +32,35 @@
 .Card-tittle{
     color: #fff;
     text-align: center;
-    background-image: url();
+    padding-bottom: 0.4rem;
+}
+#cards-generate-img{
+    padding-bottom: -0.3;
+    padding-top: 1.5rem;
+}
+#cards{
+    border-radius: 30px;
+}
+#cards:hover{
+    transform: scale(1.1);
+}
+.cards-generate-img__container{
+    height: 140px;
+    overflow: hidden;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.cards-generate-img__container::after {
+    content: "";
+    position: absolute;
+    top: 27%;
+    left: 2.5%;
+    width: 95%;
+    height: 120px;
+    background: linear-gradient(to right top, #00000041, #00000041, #00000041, #00000041, #00000041);
+  }
+@media (max-width: 600px){
+    #cards:hover{
+        transform: scale(1);
+    }
 }

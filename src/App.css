@@ -7,7 +7,7 @@ html,body{
   padding: 0;
   box-sizing: border-box;
 }
-#Habilities{
+#Habilities,#Proyects,#Contacto{
   text-align: center;
   color: white;
   margin-top: 4rem;
