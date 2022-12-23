@@ -21,7 +21,7 @@ function Inicio() {
         </Col>
         <Col id="inicio-second-col">
             <div className='Inicio-Image'>
-                <img src="./public/inicio-programator.svg"></img>
+                <img src="./src/images/inicio-programator.svg"></img>
             </div>
         </Col>
       </Row>
