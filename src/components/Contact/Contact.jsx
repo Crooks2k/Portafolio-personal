@@ -1,5 +1,8 @@
 import React from 'react'
 import ContactEmailPop from './ContactEmailPop';
+import email from "../../images/Email.png"
+import git from "../../images/mdi_github.png"
+import linkedin from "../../images/mdi_linkedin.png"
 
 function Contact() {
     function gitHubRedirect(e){
@@ -19,9 +22,9 @@ function Contact() {
   return (
     <div className='Contact'>
         <div className="Contact-display">
-            <img src="./src/images/Email.png" alt="Email Contact" className='contact-images'/>
-            <img src="./src/images/mdi_github.png" alt="Linkedin Contact" className='contact-images' onClick={gitHubRedirect}/>
-            <img src="./src/images/mdi_linkedin.png" alt="Github Contact" className='contact-images' onClick={LinkedinRedirect}/>
+            <img src={email} alt="Email Contact" className='contact-images'/>
+            <img src={linkedin} alt="Linkedin Contact" className='contact-images' onClick={gitHubRedirect}/>
+            <img src={git} alt="Github Contact" className='contact-images' onClick={LinkedinRedirect}/>
         </div>
     </div>
   )

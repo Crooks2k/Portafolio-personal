@@ -1,12 +1,13 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import aboutimg from "../../images/About.svg"
 function About() {
   return (
     <Container id="second-section-main__container">
       <Row>
         <Col id="second-section-about-img">
-            <img src="./src/images/About.svg"></img>
+            <img src={aboutimg}></img>
         </Col>
         <Col id="second-section-about-text">
             <h2>SOBRE MI</h2>

@@ -1,6 +1,8 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import aritos from "../../images/aritos.png"
+import programadorinit from "../../images/inicio-programator.svg"
 function Inicio() {
   function scrollContact(e){
     e.preventDefault()
@@ -11,17 +13,17 @@ function Inicio() {
       <Row>
         <Col id="inicio-first-col">
             <div className='Inicio-Tittles'>
-                <img src="./src/images/aritos.png" className='aritos' id="arito1"></img>
+                <img src={aritos} className='aritos' id="arito1"></img>
                 <p className='hola-tittle'>Hola!</p>
                 <h2>Soy Daniel Veloza</h2>
                 <p className='frontend-tittle'>Front-end Developer</p>
                 <button className="Contact-butt" onClick={scrollContact}>CONTACTO</button>
-                <img src="./src/images/aritos.png" className='aritos' id="arito2"></img>
+                <img src={aritos} className='aritos' id="arito2"></img>
             </div>
         </Col>
         <Col id="inicio-second-col">
             <div className='Inicio-Image'>
-                <img src="./src/images/inicio-programator.svg"></img>
+                <img src={programadorinit}></img>
             </div>
         </Col>
       </Row>
