@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import aritos from "../../images/aritos.png"
-import programadorinit from "../../images/inicio-programator.svg"
+import programadorinit from "../../images/inicioprogramator.svg"
 function Inicio() {
   function scrollContact(e){
     e.preventDefault()
