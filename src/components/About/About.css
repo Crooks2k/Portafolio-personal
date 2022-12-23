@@ -73,10 +73,10 @@
 @media (max-width:400px){
     #second-section-about-text p{
         font-size: 15px;
-        width: 17em;
+        width: 14em;
     }
     #second-section-about-text{
         margin-top: 2rem;
-        margin-left: 1rem;
+        margin-left: 0.5rem;
     }
 }

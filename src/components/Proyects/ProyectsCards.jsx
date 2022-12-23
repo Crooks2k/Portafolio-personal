@@ -1,5 +1,7 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
+import giticon from "../../images/Github.png"
+import webicon from "../../images/webicon.svg"
 
 function ProyectsCards({cardData}) {
 
@@ -24,8 +26,8 @@ function ProyectsCards({cardData}) {
         <Card.Body>
           <Card.Title id="cards-tittles" className="Card-tittle">{cardData.proyectName}</Card.Title>
           <div className="Links">
-            <button id="Website-butt" onClick={linkRecept}>WebSite <img src="./src/images/webicon.svg"/></button>
-            <button id="GitHub-butt" onClick={gitRecept}>GitHub <img src="./src/images/Github.png"/></button>
+            <button id="Website-butt" onClick={linkRecept}>WebSite <img src={webicon}/></button>
+            <button id="GitHub-butt" onClick={gitRecept}>GitHub <img src={giticon}/></button>
           </div>
         </Card.Body>
       </Card>

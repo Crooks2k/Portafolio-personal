@@ -23,8 +23,8 @@ function Contact() {
     <div className='Contact'>
         <div className="Contact-display">
             <img src={email} alt="Email Contact" className='contact-images'/>
-            <img src={linkedin} alt="Linkedin Contact" className='contact-images' onClick={gitHubRedirect}/>
-            <img src={git} alt="Github Contact" className='contact-images' onClick={LinkedinRedirect}/>
+            <img src={linkedin} alt="Linkedin Contact" className='contact-images' onClick={LinkedinRedirect}/>
+            <img src={git} alt="Github Contact" className='contact-images' onClick={gitHubRedirect}/>
         </div>
     </div>
   )
