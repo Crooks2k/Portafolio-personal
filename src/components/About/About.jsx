@@ -6,7 +6,7 @@ function About() {
     <Container id="second-section-main__container">
       <Row>
         <Col id="second-section-about-img">
-            <img src="./public/About.svg"></img>
+            <img src="./src/images/About.svg"></img>
         </Col>
         <Col id="second-section-about-text">
             <h2>SOBRE MI</h2>

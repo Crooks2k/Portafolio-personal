@@ -24,8 +24,8 @@ function ProyectsCards({cardData}) {
         <Card.Body>
           <Card.Title id="cards-tittles" className="Card-tittle">{cardData.proyectName}</Card.Title>
           <div className="Links">
-            <button id="Website-butt" onClick={linkRecept}>WebSite <img src="./public/webicon.svg"/></button>
-            <button id="GitHub-butt" onClick={gitRecept}>GitHub <img src="./public/Github.png"/></button>
+            <button id="Website-butt" onClick={linkRecept}>WebSite <img src="./src/images/webicon.svg"/></button>
+            <button id="GitHub-butt" onClick={gitRecept}>GitHub <img src="./src/images/Github.png"/></button>
           </div>
         </Card.Body>
       </Card>

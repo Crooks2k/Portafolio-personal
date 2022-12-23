@@ -11,12 +11,12 @@ function Inicio() {
       <Row>
         <Col id="inicio-first-col">
             <div className='Inicio-Tittles'>
-                <img src="./public/aritos.png" className='aritos' id="arito1"></img>
+                <img src="./src/images/aritos.png" className='aritos' id="arito1"></img>
                 <p className='hola-tittle'>Hola!</p>
                 <h2>Soy Daniel Veloza</h2>
                 <p className='frontend-tittle'>Front-end Developer</p>
                 <button className="Contact-butt" onClick={scrollContact}>CONTACTO</button>
-                <img src="./public/aritos.png" className='aritos' id="arito2"></img>
+                <img src="./src/images/aritos.png" className='aritos' id="arito2"></img>
             </div>
         </Col>
         <Col id="inicio-second-col">

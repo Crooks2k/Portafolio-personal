@@ -19,9 +19,9 @@ function Contact() {
   return (
     <div className='Contact'>
         <div className="Contact-display">
-            <img src="./public/Email.png" alt="Email Contact" className='contact-images'/>
-            <img src="./public/mdi_github.png" alt="Linkedin Contact" className='contact-images' onClick={gitHubRedirect}/>
-            <img src="./public/mdi_linkedin.png" alt="Github Contact" className='contact-images' onClick={LinkedinRedirect}/>
+            <img src="./src/images/Email.png" alt="Email Contact" className='contact-images'/>
+            <img src="./src/images/mdi_github.png" alt="Linkedin Contact" className='contact-images' onClick={gitHubRedirect}/>
+            <img src="./src/images/mdi_linkedin.png" alt="Github Contact" className='contact-images' onClick={LinkedinRedirect}/>
         </div>
     </div>
   )

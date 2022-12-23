@@ -33,7 +33,7 @@ function OffcanvasExample() {
         </Navbar>
         
       ))}
-      <img src="./public/header.svg" id="Header-image"></img>
+      <img src="./src/images/header.svg" id="Header-image"></img>
     </div>
   );
 }
