@@ -14,6 +14,57 @@
     display: flex;
     gap: 4rem;
 }
+/* Modal styles */
+.modal-header__bg{
+    color: #fff;
+}
+.modal-content{
+    background-color: #7F5AF0!important;
+}
+.modal-header__bg, .modal-footer__bg, .modal-bg{
+    background-color: #242629!important;
+    border: none!important;
+    border-left: 2px solid #7F5AF0!important;
+    border-right: 2px solid #7F5AF0!important;
+}
+.modal-header__bg{
+    border-top: 2px solid #7F5AF0!important;
+}
+.modal-footer__bg{
+    border-bottom: 2px solid #7F5AF0!important;
+}
+input, textarea{
+    background-color: #16161A!important;
+    border: none!important;
+    color: #fff;
+}
+
+/* Modal tittles */
+.form-label{
+    color: #fff;
+}
+#modal-tittle-main{
+    color: #7F5AF0;
+    font-size: 30px;
+}
+.modal-header__bg{
+    margin-bottom: -1rem;
+}
+.btn-close{
+    opacity: 1!important;
+}
+.form-control{
+    color: rgb(158, 158, 158)!important;
+}
+/* Modal buttons */
+.Modal-send__but{
+    width: 140px;
+    background-color: #7F5AF0!important;
+    border: none !important;
+    margin-bottom: 0.6rem!important;
+}
+
+/* Responsive Fixes*/
 @media (max-width: 820px){
     .Contact img{
         width: 100px;
