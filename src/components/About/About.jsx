@@ -4,7 +4,8 @@ import Col from 'react-bootstrap/Col';
 import aboutimg from "../../images/About.svg"
 function About() {
   return (
-    <Container id="second-section-main__container">
+    <div id="About">
+       <Container id="second-section-main__container">
       <Row>
         <Col id="second-section-about-img">
             <img src={aboutimg}></img>
@@ -16,6 +17,8 @@ function About() {
         </Col>
       </Row>
     </Container>
+    </div>
+   
   );
 }
 export default About;

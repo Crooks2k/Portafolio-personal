@@ -24,7 +24,7 @@ function Contact() {
     const handleShow = () => setShow(true);
   
     return (
-        <div className='Contact'>
+        <div className='Contact' id="header-contact">
             <div className="Contact-display">
                 {/* Email Modal start */}
                 <img src={email} alt="Email Contact" className='contact-images' onClick={handleShow}/>

@@ -8,6 +8,17 @@
     color: #FFFFFE;
     letter-spacing: 1.2px;
     margin-left: 0.5rem;
+    padding-bottom: 0.1rem;
+    padding-top: 0.1rem;
+    border-radius: 30%;
+    margin-left: 0.2rem;
+    margin-right: 0.15rem;
+}
+#NavBar-colors > .active{
+    text-decoration: none;
+    border-bottom: 3px solid #7F5AF0;
+    border-top: 3px solid #7F5AF0;
+    font-weight: 600;
 }
 #NavBar-colors a:hover{
     color:#7F5AF0;
@@ -27,13 +38,7 @@
 #butt-nav{
     border: 0px;
 }
-#header-contact{
-    border: 2px solid #7F5AF0;
-    border-radius: 10px;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-}
-#header-contact:hover{
+.header-contact:hover{
     transform: scale(1.1);
 }
 /* .Linea-editable{

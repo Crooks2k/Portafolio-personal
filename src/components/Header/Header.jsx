@@ -3,8 +3,9 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import headerform from "../../images/header.svg"
-
+import { Link, animateScroll as scroll } from "react-scroll";
 function OffcanvasExample() {
+
   return (
     <div>
       {["md"].map((expand) => (
@@ -22,17 +23,32 @@ function OffcanvasExample() {
               </Offcanvas.Header>
               <Offcanvas.Body id="offcanvas-body">
                 <Nav className="justify-content-end flex-grow-1 pe-3 " id="NavBar-colors">
-                  <Nav.Link href="#Inicio" className="Linea-editable">Inicio</Nav.Link>
-                  <Nav.Link href="#action2" className="Linea-editable">Sobre mi</Nav.Link>
-                  <Nav.Link href="#action3" className="Linea-editable">Habilidades</Nav.Link>
-                  <Nav.Link href="#action4" className="Linea-editable">Proyectos</Nav.Link>
-                  <Nav.Link href="#action5" id="header-contact">Contacto</Nav.Link>
+
+                  <Link activeClass="active" to="Inicio" spy={true} smooth={false} offset={-130} duration={500}>
+                    <Nav.Link>Inicio</Nav.Link>
+                  </Link>
+                  
+                  <Link activeClass="active" to="About" spy={true} smooth={false} offset={-130} duration={500}>
+                    <Nav.Link>Sobre mi</Nav.Link>
+                  </Link>
+                  
+                  <Link activeClass="active" to="Habilidades" spy={true} smooth={false} offset={-145} duration={500}>
+                    <Nav.Link>Habilidades</Nav.Link>
+                  </Link>
+                  
+                  <Link activeClass="active" to="Proyectos" spy={true} smooth={false} offset={-145} duration={500}>
+                    <Nav.Link>Proyectos</Nav.Link>
+                  </Link>
+                  
+                  <Link activeClass="active" to="header-contact" spy={true} smooth={false} offset={-100} duration={500}>
+                    <Nav.Link className="header-contact">Contacto</Nav.Link>
+                  </Link>
+
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas> 
           </Container>
         </Navbar>
-        
       ))}
       <img src={headerform} id="Header-image"></img>
     </div>

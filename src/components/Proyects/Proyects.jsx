@@ -50,7 +50,7 @@ function Proyects() {
     
   return (
     //Procesado de iteracion para la generación de las cards con los datos de cada posicion del objeto cardData
-    <div className="cards-generate-map">
+    <div className="cards-generate-map" id="Proyectos">
       {
         cardsData.map(cardData=>{
           return(
