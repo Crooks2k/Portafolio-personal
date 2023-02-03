@@ -6,6 +6,7 @@
 #second-section-main__container{
     margin-top: 1rem;
 }
+
 #second-section-about-text p{
     color: #94A1B2;
     font-size: 18px;
@@ -70,13 +71,13 @@
         font-size: 19px;
     }
 }
-@media (max-width:400px){
+@media (min-width:375px){
     #second-section-about-text p{
         font-size: 15px;
-        width: 14em;
+        width: 90%;
     }
     #second-section-about-text{
         margin-top: 2rem;
-        margin-left: 0.5rem;
+        margin-left: 0.8rem;
     }
 }

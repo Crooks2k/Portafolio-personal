@@ -36,11 +36,11 @@ function OffcanvasExample() {
                     <Nav.Link>Habilidades</Nav.Link>
                   </Link>
                   
-                  <Link activeClass="active" to="Proyectos" spy={true} smooth={false} offset={-145} duration={500}>
+                  <Link activeClass="active" to="Proyectos" spy={true} smooth={false} offset={-165} duration={500}>
                     <Nav.Link>Proyectos</Nav.Link>
                   </Link>
                   
-                  <Link activeClass="active" to="header-contact" spy={true} smooth={false} offset={-100} duration={500}>
+                  <Link activeClass="active" to="header-contact" spy={true} smooth={false} offset={-170} duration={500}>
                     <Nav.Link className="header-contact">Contacto</Nav.Link>
                   </Link>
 

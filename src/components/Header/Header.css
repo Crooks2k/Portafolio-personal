@@ -41,6 +41,36 @@
 .header-contact:hover{
     transform: scale(1.1);
 }
+/* OFF CANVAS ICONS */
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("../../images/hamburguer.png");
+    width: 60px;
+    height: 47px;
+}
+.navbar-toggler{
+    padding: 0!important;
+    margin: 0!important;
+}
+.btn-close{
+    background-image: url("../../images/hamburguer-close.png")!important;
+    background-size: cover!important;
+    width: 25px!important;
+    height: 25px!important;
+}
 /* .Linea-editable{
     border-bottom: 4px solid #7F5AF0;
 } */
+
+@media (min-width: 1400px){
+    #Header-image{
+        margin-top:3.1rem;
+    }
+}
+@media (min-width: 375px) {
+    .modal-header{
+        align-items: flex-start!important;
+    }
+    .modal-header .btn-close{
+        margin: 0!important;
+    }
+}
