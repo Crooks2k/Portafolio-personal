@@ -17,7 +17,7 @@ function Contact() {
     //linkedin redirect funct
     function LinkedinRedirect(e) {
         e.preventDefault();
-        window.open("www.linkedin.com/in/daniel-felipe-veloza", '_blank');
+        window.open("www.linkedin.com/in/daniel-felipe-veloza/", '_blank');
     };
 
     //Modal variables (state)
