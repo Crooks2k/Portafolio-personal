@@ -12,16 +12,13 @@ function Inicio() {
         <Row>
           <Col id="inicio-first-col">
               <div className='Inicio-Tittles'>
-                  <img src={aritos} className='aritos' id="arito1"></img>
                   <p className='hola-tittle'>Hola!</p>
                   <h2>Soy Daniel Veloza</h2>
-                  <p className='frontend-tittle'>Front-end Developer</p>
+                  <p className='frontend-tittle'>Full Stack Developer MERN</p>
 
                   <Link activeClass="active" to="header-contact" spy={true} smooth={false} offset={-100} duration={500}>
                     <button className="Contact-butt">CONTACTO</button>
                   </Link>
-                  
-                  <img src={aritos} className='aritos' id="arito2"></img>
               </div>
           </Col>
           <Col id="inicio-second-col">
@@ -31,6 +28,9 @@ function Inicio() {
           </Col>
         </Row>
       </Container>
+      <div id="programator-image-mobile">
+       <img src={programadorinit}></img>
+      </div>
     </div>
     
   );

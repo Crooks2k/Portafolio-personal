@@ -2,7 +2,14 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import aboutimg from "../../images/About.svg"
+import CV from "../../assets/CV.pdf"
+
 function About() {
+
+  function CvRedirect() {
+    window.open(CV, '_blank');
+};
+
   return (
     <div id="About">
        <Container id="second-section-main__container">
@@ -12,8 +19,8 @@ function About() {
         </Col>
         <Col id="second-section-about-text">
             <h2>SOBRE MI</h2>
-            <p>Soy Daniel Veloza, desarrollador web Front-End en Bogotá, Colombia. Creo webs a medida para ayudar a las personas a estar mas conectadas, poseo buenas habilidades blandas y me gusta mantenerme en constante crecimiento aprendiendo nuevas tecnologias.</p>
-            <button>DOWNLOAD CV</button>
+            <p>Desarrollador web full stack creativo y innovador con experiencia trabajando con clientes, creación de páginas web como E-commerce, landingpage y paginas administrativas. También lleve a cabo la lideración de varios proyectos</p>
+            <button onClick={CvRedirect}>VISUALIZAR CV</button>
         </Col>
       </Row>
     </Container>

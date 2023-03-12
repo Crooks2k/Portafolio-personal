@@ -2,6 +2,19 @@ import React from 'react'
 import Card from 'react-bootstrap/Card';
 import giticon from "../../images/Github.png"
 import webicon from "../../images/webicon.svg"
+import { CardActionArea } from '@mui/material';
+import { useState } from "react";
+import Box from '@mui/material/Box';
+import Modal from '@mui/material/Modal';
+
+const style = {
+  position: 'absolute',
+  top: '50%',
+  left: '50%',
+  transform: 'translate(-50%, -50%)',
+  width: 700,
+};
+
 
 function ProyectsCards({cardData}) {
 
@@ -16,13 +29,29 @@ function ProyectsCards({cardData}) {
     window.open(git, '_blank');
   }
 
+  //Open image modal
+  const handleOpen = (card) => {
+    setSelectedCard(card);
+  };
+
+  const handleClose = () => {
+    setSelectedCard(null);
+  };
+
+  const [selectedCard, setSelectedCard] = useState(null);
+
+  const infoAlert = () =>{
+    swal("Puedes dar click en la imagen para cerrarla")
+  }
+
   return (
     <div className="Cards-generate">
       <Card style={{ width: '18rem' }} id="cards">
-        <svg viewBox="0 0 1440 320"><path fill="#16161A" fill-opacity="1" d="M0,192L0,192L120,192L120,192L240,192L240,160L360,160L360,192L480,192L480,64L600,64L600,320L720,320L720,128L840,128L840,32L960,32L960,256L1080,256L1080,192L1200,192L1200,256L1320,256L1320,128L1440,128L1440,0L1320,0L1320,0L1200,0L1200,0L1080,0L1080,0L960,0L960,0L840,0L840,0L720,0L720,0L600,0L600,0L480,0L480,0L360,0L360,0L240,0L240,0L120,0L120,0L0,0L0,0Z"></path></svg>
+      <CardActionArea onClick={() => handleOpen(cardData.proyectImage)}>
         <div className='cards-generate-img__container'>
           <Card.Img variant="top" alt={cardData.alt}src={cardData.proyectImage} id="cards-generate-img"/>
         </div>
+      </CardActionArea>
         <Card.Body>
           <Card.Title id="cards-tittles" className="Card-tittle">{cardData.proyectName}</Card.Title>
           <div className="Links">
@@ -31,6 +60,15 @@ function ProyectsCards({cardData}) {
           </div>
         </Card.Body>
       </Card>
+
+      <Modal
+        open={selectedCard !== null}
+        onClose={handleClose}
+      >
+        <Box sx={style}>
+          <img src={cardData.proyectImage} id="modal-path-image" onClick={handleClose}/>
+        </Box>
+      </Modal>
     </div>
   )
 }

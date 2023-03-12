@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import headerform from "../../images/header.svg"
 import { Link, animateScroll as scroll } from "react-scroll";
+
 function OffcanvasExample() {
 
   return (
@@ -24,7 +25,7 @@ function OffcanvasExample() {
               <Offcanvas.Body id="offcanvas-body">
                 <Nav className="justify-content-end flex-grow-1 pe-3 " id="NavBar-colors">
 
-                  <Link activeClass="active" to="Inicio" spy={true} smooth={false} offset={-130} duration={500}>
+                  <Link activeClass="active" to="Inicio" spy={true} smooth={false} offset={-140} duration={500}>
                     <Nav.Link>Inicio</Nav.Link>
                   </Link>
                   
