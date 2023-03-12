@@ -6,7 +6,7 @@ import badjoke from "../../images/bad-joke-api.png"
 import plancard from "../../images/anual-plan-card.png"
 import calculator from "../../images/calculator-js.png"
 import reactapi from "../../images/rick-and-morty-api.png"
-import dalpet from "../../images/dalpet.png"
+import dalpet from "../../images/Dalpet.png"
 import videoclub from "../../images/VideoClub.png"
 
 function Proyects() {
