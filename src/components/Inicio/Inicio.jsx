@@ -13,8 +13,8 @@ function Inicio() {
           <Col id="inicio-first-col">
               <div className='Inicio-Tittles'>
                   <p className='hola-tittle'>Hola!</p>
-                  <h2>Soy Daniel Veloza</h2>
-                  <p className='frontend-tittle'>Full Stack Developer MERN</p>
+                  <h1>Soy Daniel Veloza</h1>
+                  <h2 className='frontend-tittle'>Full Stack Developer MERN</h2>
 
                   <Link activeClass="active" to="header-contact" spy={true} smooth={false} offset={-100} duration={500}>
                     <button className="Contact-butt">CONTACTO</button>
